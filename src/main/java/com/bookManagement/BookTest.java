@@ -1,9 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+package com.bookManagement;
+
+
+import com.bookManagement.entity.Book;
+
+public class BookTest {
     public static void main(String[] args) {
-        Book book = new Book.BookBuilder()
-                .name("book")
+        Book book = Book.builder().name("book")
                 .author("Xinyuan Zhang")
                 .doi("http")
                 .location("sd")
