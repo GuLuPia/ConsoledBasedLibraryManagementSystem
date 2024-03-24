@@ -1,5 +1,12 @@
-报错：git@github.com permission denied (publickey). fatal could not read from remote repository
-解决办法：https://zhuanlan.zhihu.com/p/454666519
+### 报错：git@github.com permission denied (public key). fatal could not read from remote repository
+### 解决办法：https://zhuanlan.zhihu.com/p/454666519
+
+
+# Content
+
+ContentItem(String contentType, String name, String author, String doi, String location, String publisher, boolean isAvailable) 
+
+contentType: Book, Journal article, Conference paper
 
 sql文件夹: sql文件 <br>
 Service文件夹(刨除exception和impl): 用户鉴权 和 借书还书 相关方法及注释<br>
