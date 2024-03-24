@@ -1,4 +1,6 @@
 package com.bookManagement;
+import com.bookManagement.entity.Book;
+import com.bookManagement.entity.Content;
 import com.bookManagement.entity.User;
 import com.bookManagement.service.exception.*;
 import com.bookManagement.service.impl.BookServiceImpl;
