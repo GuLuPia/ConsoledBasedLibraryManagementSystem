@@ -8,6 +8,14 @@ ContentItem(String contentType, String name, String author, String doi, String l
 
 contentType: Book, Journal article, Conference paper
 
+完成了功能
+- 用户鉴权-登录注册
+- 书籍的借阅和归还
+- 主终端的显示
+- 异常的处理
+  添加sql文件和Maven环境
+  修改ReadMe文件和Book文件,保留了全部功能
+
 sql文件夹: sql文件 <br>
 Service文件夹(刨除exception和impl): 用户鉴权 和 借书还书 相关方法及注释<br>
 Main: 终端启动主方法<br>
